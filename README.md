@@ -4,7 +4,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=EGOR%20TERSKII&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Full-Stack%20Developer%20|%20Telegram%20Expert%20|%20Web3%20Builder&descSize=18&descAlignY=52"/>
 
 <!-- TYPING ANIMATION -->
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=A855F7&center=true&vCenter=true&random=false&width=600&lines=Building+MVPs+in+24-48+hours+⚡;Telegram+Bots+%26+Mini+Apps+🤖;Web3+%26+TON+Integration+🔗;Open+for+Projects+🚀)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=A855F7&center=true&vCenter=true&random=false&width=600&lines=Building+MVPs+in+24-48+hours+⚡;Telegram+Bots+%26+Mini+Apps+🤖;Web3+%26+TON+Integration+🔗;Недорого+и+качественно+💰)](https://git.io/typing-svg)
 
 <!-- SOCIAL BADGES -->
 <p>
@@ -89,22 +89,21 @@ const developer = {
 
 ---
 
-## 💼 Services & Pricing
+## 💼 Services
 
 <div align="center">
 
-| Service | Timeframe | Starting Price |
-|:--------|:---------:|:---------------|
-| 🌐 **Landing Page** | 24 hours | from 15,000 ₽ |
-| 🤖 **Telegram Bot** | 2-3 days | from 20,000 ₽ |
-| 📱 **Mini App (Telegram)** | 3-5 days | from 35,000 ₽ |
-| ⚙️ **Automation Script** | 1-2 days | from 10,000 ₽ |
-| 🎮 **Web3 / TON Integration** | 5-7 days | from 50,000 ₽ |
-| 🚀 **Full SaaS MVP** | 1-2 weeks | individual |
+| Услуга | Сроки | Цена |
+|:-------|:-----:|:-----|
+| 🌐 **Лендинг** | от 24 часов | 💬 Недорого |
+| 🤖 **Telegram Бот** | 2-3 дня | 💬 Обсудим |
+| 📱 **Mini App (TWA)** | 3-5 дней | 💬 Индивидуально |
+| ⚙️ **Скрипт / Парсер** | 1-2 дня | 💬 Недорого |
+| 🎮 **Web3 / TON** | 5-7 дней | 💬 Обсудим |
 
 </div>
 
-> 💡 **Free consultation!** Describe your idea — I'll provide estimate and timeline.
+> 💡 **Бесплатная консультация!** Напиши идею — я скажу точные сроки и цену.
 
 ---
 
@@ -117,9 +116,6 @@ const developer = {
 
 <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Chumbayoumba&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7" alt="Top Languages"/>
 
-<!-- ACTIVITY GRAPH -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Chumbayoumba&bg_color=0D1117&color=A855F7&line=A855F7&point=FFFFFF&area=true&hide_border=true" alt="Activity Graph"/>
-
 </div>
 
 ---
@@ -128,26 +124,26 @@ const developer = {
 
 <div align="center">
 
-| Project | Description | Tech |
-|:--------|:------------|:-----|
-| 🚀 **Telegram Asset Platform** | Digital assets platform with TON integration, 10k+ daily operations | React, NestJS, Docker, TON |
-| 🎰 **CryptoCasino Engine** | High-frequency betting prototype, 1000+ concurrent WebSocket connections | Node.js, Redis, WebSockets |
-| ⚡ **RapidLaunch** | AI-powered landing page generator, 6-hour business launch | React, Framer Motion, Tailwind |
-| 🤖 **TG Bot Framework** | Production-ready Telegram bot template with admin panel | Python, Aiogram, PostgreSQL |
+| Проект | Описание | Стек |
+|:-------|:---------|:-----|
+| 🚀 **Telegram Asset Platform** | Платформа цифровых активов с TON, 10k+ операций/день | React, NestJS, Docker, TON |
+| 🎰 **CryptoCasino Engine** | Прототип для беттинга, 1000+ WebSocket соединений | Node.js, Redis, WebSockets |
+| ⚡ **RapidLaunch** | AI-генератор лендингов, запуск бизнеса за 6 часов | React, Framer Motion, Tailwind |
+| 🤖 **TG Bot Framework** | Production-ready шаблон бота с админкой | Python, Aiogram, PostgreSQL |
 
 </div>
 
 ---
 
-## 📫 Let's Work Together!
+## 📫 Связаться
 
 <div align="center">
 
-### 💬 Ready to build something awesome?
+### 💬 Готов обсудить ваш проект!
 
 <p>
   <a href="https://t.me/longfest">
-    <img src="https://img.shields.io/badge/💬_Message_on_Telegram-@longfest-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/>
+    <img src="https://img.shields.io/badge/💬_Написать_в_Telegram-@longfest-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/>
   </a>
 </p>
 
@@ -155,12 +151,12 @@ const developer = {
 
 ---
 
-### 💰 Payment Options
+### 💰 Способы оплаты
 
 <p>
   <img src="https://img.shields.io/badge/USDT-TRC20-26A17B?style=flat-square&logo=tether&logoColor=white" alt="USDT"/>
-  <img src="https://img.shields.io/badge/Bank_Transfer-RUB-4CAF50?style=flat-square&logo=bank&logoColor=white" alt="Bank"/>
-  <img src="https://img.shields.io/badge/Invoice-ИП_/_ООО-FF9800?style=flat-square&logo=receipt&logoColor=white" alt="Invoice"/>
+  <img src="https://img.shields.io/badge/Перевод-На_карту-4CAF50?style=flat-square&logo=bank&logoColor=white" alt="Bank"/>
+  <img src="https://img.shields.io/badge/Счёт-ИП_/_ООО-FF9800?style=flat-square&logo=receipt&logoColor=white" alt="Invoice"/>
 </p>
 
 </div>
@@ -172,6 +168,6 @@ const developer = {
 <!-- FOOTER -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
 
-**⭐ Star my repos if you like my work!**
+**⭐ Если понравились мои проекты — ставь звезду!**
 
 </div>
