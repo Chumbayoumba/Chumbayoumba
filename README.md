@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- ANIMATED HEADER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=EGOR%20TERSKY&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Full-Stack%20Developer%20|%20Telegram%20Expert%20|%20Web3%20Builder&descSize=18&descAlignY=52"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=EGOR%20TERSKII&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Full-Stack%20Developer%20|%20Telegram%20Expert%20|%20Web3%20Builder&descSize=18&descAlignY=52"/>
 
 <!-- TYPING ANIMATION -->
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=A855F7&center=true&vCenter=true&random=false&width=600&lines=Building+MVPs+in+24-48+hours+⚡;Telegram+Bots+%26+Mini+Apps+🤖;Web3+%26+TON+Integration+🔗;Open+for+Projects+🚀)](https://git.io/typing-svg)
@@ -27,7 +27,7 @@
 
 ```typescript
 const developer = {
-  name: "Egor Tersky",
+  name: "Egor Terskii",
   location: "Russia 🇷🇺",
   
   expertise: {
@@ -172,6 +172,6 @@ const developer = {
 <!-- FOOTER -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
 
-**⭐ If you like my work, consider giving a star!**
+**⭐ Star my repos if you like my work!**
 
 </div>
