@@ -9,8 +9,8 @@
 <!-- SOCIAL BADGES -->
 <p>
   <a href="https://t.me/longfest"><img src="https://img.shields.io/badge/Telegram-@longfest-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/></a>
-  <a href="https://egortersky.ru"><img src="https://img.shields.io/badge/Portfolio-egortersky.ru-A855F7?style=for-the-badge&logo=react&logoColor=white" alt="Portfolio"/></a>
-  <a href="mailto:egortersky@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://egor-dev.ru"><img src="https://img.shields.io/badge/Portfolio-egor--dev.ru-A855F7?style=for-the-badge&logo=react&logoColor=white" alt="Portfolio"/></a>
+  <a href="https://github.com/Chumbayoumba"><img src="https://img.shields.io/badge/GitHub-Chumbayoumba-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 </p>
 
 <!-- PROFILE VIEWS & FOLLOWERS -->
@@ -120,16 +120,16 @@ const developer = {
 
 ---
 
-## 🏆 Featured Projects
+## 🏆 Open Source Projects
 
 <div align="center">
 
 | Проект | Описание | Стек |
 |:-------|:---------|:-----|
-| 🚀 **Telegram Asset Platform** | Платформа цифровых активов с TON, 10k+ операций/день | React, NestJS, Docker, TON |
-| 🎰 **CryptoCasino Engine** | Прототип для беттинга, 1000+ WebSocket соединений | Node.js, Redis, WebSockets |
-| ⚡ **RapidLaunch** | AI-генератор лендингов, запуск бизнеса за 6 часов | React, Framer Motion, Tailwind |
-| 🤖 **TG Bot Framework** | Production-ready шаблон бота с админкой | Python, Aiogram, PostgreSQL |
+| 📱 **[tg-mini-app-template](https://github.com/Chumbayoumba/tg-mini-app-template)** | Шаблон Telegram Mini App с TON Connect | React, TypeScript, Vite |
+| 🤖 **[aiogram-starter-kit](https://github.com/Chumbayoumba/aiogram-starter-kit)** | Production-ready шаблон TG бота | Python, Aiogram 3, Docker |
+| ⚡ **[react-landing-starter](https://github.com/Chumbayoumba/react-landing-starter)** | Современный шаблон лендинга | React, Tailwind, Framer Motion |
+| 📚 **[awesome-telegram-russia](https://github.com/Chumbayoumba/awesome-telegram-russia)** | Ресурсы для TG-разработки в РФ | Curated List |
 
 </div>
 
@@ -146,8 +146,6 @@ const developer = {
     <img src="https://img.shields.io/badge/💬_Написать_в_Telegram-@longfest-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/>
   </a>
 </p>
-
-**📧 Email:** egortersky@gmail.com
 
 ---
 
