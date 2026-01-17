@@ -1,13 +1,23 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=A855F7&center=true&vCenter=true&random=false&width=600&lines=Full-Stack+Developer;Telegram+Bot+Expert;Web3+%26+Mini+Apps+Builder;Open+for+Projects+%F0%9F%9A%80)](https://git.io/typing-svg)
+<!-- ANIMATED HEADER -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=EGOR%20TERSKY&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Full-Stack%20Developer%20|%20Telegram%20Expert%20|%20Web3%20Builder&descSize=18&descAlignY=52"/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Egor%20Tersky&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32"/>
+<!-- TYPING ANIMATION -->
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=A855F7&center=true&vCenter=true&random=false&width=600&lines=Building+MVPs+in+24-48+hours+⚡;Telegram+Bots+%26+Mini+Apps+🤖;Web3+%26+TON+Integration+🔗;Open+for+Projects+🚀)](https://git.io/typing-svg)
 
-### 💻 Full-Stack Developer | 🤖 Telegram Expert | ⚡ Fast Delivery
+<!-- SOCIAL BADGES -->
+<p>
+  <a href="https://t.me/longfest"><img src="https://img.shields.io/badge/Telegram-@longfest-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/></a>
+  <a href="https://egortersky.ru"><img src="https://img.shields.io/badge/Portfolio-egortersky.ru-A855F7?style=for-the-badge&logo=react&logoColor=white" alt="Portfolio"/></a>
+  <a href="mailto:egortersky@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+</p>
 
-[![Telegram](https://img.shields.io/badge/Telegram-@longfest-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/longfest)
-[![Portfolio](https://img.shields.io/badge/Portfolio-egortersky.ru-A855F7?style=for-the-badge&logo=react&logoColor=white)](https://egortersky.ru)
+<!-- PROFILE VIEWS & FOLLOWERS -->
+<p>
+  <img src="https://komarev.com/ghpvc/?username=Chumbayoumba&color=A855F7&style=flat-square&label=Profile+Views" alt="Profile Views"/>
+  <img src="https://img.shields.io/github/followers/Chumbayoumba?label=Followers&style=flat-square&color=A855F7" alt="Followers"/>
+</p>
 
 </div>
 
@@ -16,12 +26,22 @@
 ## 🚀 About Me
 
 ```typescript
-const egor = {
-    location: "Russia 🇷🇺",
-    focus: ["Web Development", "Telegram Bots", "Mini Apps", "Automation"],
-    superpower: "Building MVPs in 24-48 hours with AI",
-    contact: "@longfest on Telegram",
-    payment: ["Crypto (USDT)", "Bank Transfer", "Invoice (ИП/ООО)"]
+const developer = {
+  name: "Egor Tersky",
+  location: "Russia 🇷🇺",
+  
+  expertise: {
+    frontend: ["React", "Next.js", "TypeScript", "Tailwind", "Framer Motion"],
+    backend: ["Node.js", "Python", "FastAPI", "NestJS"],
+    telegram: ["Aiogram", "Telegram Bot API", "Mini Apps", "TON Connect"],
+    devops: ["Docker", "PostgreSQL", "Redis", "CI/CD"]
+  },
+  
+  superpower: "Building production-ready MVPs in 24-48 hours with AI",
+  currentFocus: "Telegram Mini Apps & Web3 Integration",
+  
+  contact: "@longfest on Telegram",
+  payment: ["USDT (TRC20)", "Bank Transfer", "ИП / ООО Invoice"]
 };
 ```
 
@@ -31,43 +51,60 @@ const egor = {
 
 <div align="center">
 
-### Frontend
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Framer](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
+### 💻 Frontend
+<p>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js"/>
+  <img src="https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind"/>
+  <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" alt="Framer"/>
+</p>
 
-### Backend
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
+### ⚙️ Backend
+<p>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/>
+  <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS"/>
+</p>
 
-### Telegram & Web3
-![Telegram](https://img.shields.io/badge/Telegram_API-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)
-![TON](https://img.shields.io/badge/TON-0098EA?style=for-the-badge&logo=ton&logoColor=white)
-![Aiogram](https://img.shields.io/badge/Aiogram-2CA5E0?style=for-the-badge&logo=python&logoColor=white)
+### 🤖 Telegram & Web3
+<p>
+  <img src="https://img.shields.io/badge/Telegram_API-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/>
+  <img src="https://img.shields.io/badge/TON-0098EA?style=for-the-badge&logo=ton&logoColor=white" alt="TON"/>
+  <img src="https://img.shields.io/badge/Aiogram-2CA5E0?style=for-the-badge&logo=python&logoColor=white" alt="Aiogram"/>
+  <img src="https://img.shields.io/badge/Web3-F16822?style=for-the-badge&logo=web3dotjs&logoColor=white" alt="Web3"/>
+</p>
 
-### Tools & DevOps
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+### 🔧 DevOps & Tools
+<p>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis"/>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
+</p>
 
 </div>
 
 ---
 
-## 💼 Services
+## 💼 Services & Pricing
 
-| Service | Timeframe | Description |
-|---------|-----------|-------------|
-| 🌐 **Landing Pages** | 24 hours | High-converting, mobile-first design |
-| 🤖 **Telegram Bots** | 2-3 days | Custom bots with admin panels |
-| 📱 **Mini Apps** | 3-5 days | Full-featured Telegram Mini Apps |
-| ⚙️ **Automation** | 1-2 days | Parsers, scrapers, integrations |
-| 🎮 **Web3/TON** | 5-7 days | Smart contracts, TON Connect |
+<div align="center">
+
+| Service | Timeframe | Starting Price |
+|:--------|:---------:|:---------------|
+| 🌐 **Landing Page** | 24 hours | from 15,000 ₽ |
+| 🤖 **Telegram Bot** | 2-3 days | from 20,000 ₽ |
+| 📱 **Mini App (Telegram)** | 3-5 days | from 35,000 ₽ |
+| ⚙️ **Automation Script** | 1-2 days | from 10,000 ₽ |
+| 🎮 **Web3 / TON Integration** | 5-7 days | from 50,000 ₽ |
+| 🚀 **Full SaaS MVP** | 1-2 weeks | individual |
+
+</div>
+
+> 💡 **Free consultation!** Describe your idea — I'll provide estimate and timeline.
 
 ---
 
@@ -75,11 +112,13 @@ const egor = {
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Chumbayoumba&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=A855F7)
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Chumbayoumba&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=A855F7&text_color=ffffff" alt="GitHub Stats"/>
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Chumbayoumba&theme=tokyonight&hide_border=true&background=0D1117&ring=A855F7&fire=A855F7&currStreakLabel=A855F7" alt="GitHub Streak"/>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Chumbayoumba&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7)
+<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Chumbayoumba&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7" alt="Top Languages"/>
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Chumbayoumba&theme=tokyonight&hide_border=true&background=0D1117&ring=A855F7&fire=A855F7&currStreakLabel=A855F7)
+<!-- ACTIVITY GRAPH -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Chumbayoumba&bg_color=0D1117&color=A855F7&line=A855F7&point=FFFFFF&area=true&hide_border=true" alt="Activity Graph"/>
 
 </div>
 
@@ -89,33 +128,50 @@ const egor = {
 
 <div align="center">
 
-[![Telegram Platform](https://img.shields.io/badge/🚀_Telegram_Asset_Platform-View_Project-A855F7?style=for-the-badge)](https://github.com/Chumbayoumba)
-[![Landing Generator](https://img.shields.io/badge/⚡_RapidLaunch_Landing-View_Project-3B82F6?style=for-the-badge)](https://github.com/Chumbayoumba)
-[![Bot Framework](https://img.shields.io/badge/🤖_Telegram_Bot_Framework-View_Project-10B981?style=for-the-badge)](https://github.com/Chumbayoumba)
+| Project | Description | Tech |
+|:--------|:------------|:-----|
+| 🚀 **Telegram Asset Platform** | Digital assets platform with TON integration, 10k+ daily operations | React, NestJS, Docker, TON |
+| 🎰 **CryptoCasino Engine** | High-frequency betting prototype, 1000+ concurrent WebSocket connections | Node.js, Redis, WebSockets |
+| ⚡ **RapidLaunch** | AI-powered landing page generator, 6-hour business launch | React, Framer Motion, Tailwind |
+| 🤖 **TG Bot Framework** | Production-ready Telegram bot template with admin panel | Python, Aiogram, PostgreSQL |
 
 </div>
 
 ---
 
-## 📫 Let's Connect
+## 📫 Let's Work Together!
 
 <div align="center">
 
-**Open for freelance projects and collaborations!**
+### 💬 Ready to build something awesome?
 
-[![Telegram](https://img.shields.io/badge/Message_on_Telegram-@longfest-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/longfest)
-[![Email](https://img.shields.io/badge/Email-egortersky@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:egortersky@gmail.com)
+<p>
+  <a href="https://t.me/longfest">
+    <img src="https://img.shields.io/badge/💬_Message_on_Telegram-@longfest-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/>
+  </a>
+</p>
 
-💰 **Payment:** Crypto (USDT) • Bank Transfer • ИП / ООО
+**📧 Email:** egortersky@gmail.com
 
+---
+
+### 💰 Payment Options
+
+<p>
+  <img src="https://img.shields.io/badge/USDT-TRC20-26A17B?style=flat-square&logo=tether&logoColor=white" alt="USDT"/>
+  <img src="https://img.shields.io/badge/Bank_Transfer-RUB-4CAF50?style=flat-square&logo=bank&logoColor=white" alt="Bank"/>
+  <img src="https://img.shields.io/badge/Invoice-ИП_/_ООО-FF9800?style=flat-square&logo=receipt&logoColor=white" alt="Invoice"/>
+</p>
+
+</div>
+
+---
+
+<div align="center">
+
+<!-- FOOTER -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
 
-</div>
-
----
-
-<div align="center">
-
-![Profile Views](https://komarev.com/ghpvc/?username=Chumbayoumba&color=A855F7&style=for-the-badge&label=PROFILE+VIEWS)
+**⭐ If you like my work, consider giving a star!**
 
 </div>
