@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- ANIMATED HEADER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=EGOR%20TERSKII&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Full-Stack%20Developer%20|%20Telegram%20Expert%20|%20Web3%20Builder&descSize=18&descAlignY=52"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=EGOR&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Full-Stack%20Developer%20|%20Telegram%20Expert%20|%20Web3%20Builder&descSize=18&descAlignY=52"/>
 
 <!-- TYPING ANIMATION -->
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=A855F7&center=true&vCenter=true&random=false&width=600&lines=Building+MVPs+in+24-48+hours+⚡;Telegram+Bots+%26+Mini+Apps+🤖;Web3+%26+TON+Integration+🔗;Недорого+и+качественно+💰)](https://git.io/typing-svg)
@@ -9,7 +9,7 @@
 <!-- SOCIAL BADGES -->
 <p>
   <a href="https://t.me/longfest"><img src="https://img.shields.io/badge/Telegram-@longfest-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/></a>
-  <a href="https://egor-dev.ru"><img src="https://img.shields.io/badge/Portfolio-egor--dev.ru-A855F7?style=for-the-badge&logo=react&logoColor=white" alt="Portfolio"/></a>
+  <a href="https://vnespiska.uk"><img src="https://img.shields.io/badge/Site-vnespiska.uk-A855F7?style=for-the-badge&logo=react&logoColor=white" alt="Site"/></a>
   <a href="https://github.com/Chumbayoumba"><img src="https://img.shields.io/badge/GitHub-Chumbayoumba-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 </p>
 
@@ -27,7 +27,7 @@
 
 ```typescript
 const developer = {
-  name: "Egor Terskii",
+  name: "Egor",
   location: "Russia 🇷🇺",
   
   expertise: {
