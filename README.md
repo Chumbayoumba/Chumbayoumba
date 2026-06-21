@@ -126,6 +126,8 @@ const developer = {
 
 | Проект | Описание | Стек |
 |:-------|:---------|:-----|
+| 🕳️ **[glushilok](https://github.com/Chumbayoumba/glushilok)** | Бесплатный прокси + VPN и проверка блокировок для России — [glushilok.net](https://glushilok.net) | HTML, JS, SEO |
+| 🚀 **[free-telegram-proxy-russia-2026](https://github.com/Chumbayoumba/free-telegram-proxy-russia-2026)** | Бесплатный рабочий MTProto прокси для Telegram 2026 | MTProto, Proxy |
 | 📱 **[tg-mini-app-template](https://github.com/Chumbayoumba/tg-mini-app-template)** | Шаблон Telegram Mini App с TON Connect | React, TypeScript, Vite |
 | 🤖 **[aiogram-starter-kit](https://github.com/Chumbayoumba/aiogram-starter-kit)** | Production-ready шаблон TG бота | Python, Aiogram 3, Docker |
 | ⚡ **[react-landing-starter](https://github.com/Chumbayoumba/react-landing-starter)** | Современный шаблон лендинга | React, Tailwind, Framer Motion |
