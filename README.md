@@ -10,6 +10,7 @@
 <p>
   <a href="https://t.me/longfest"><img src="https://img.shields.io/badge/Telegram-@longfest-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/></a>
   <a href="https://vnespiska.uk"><img src="https://img.shields.io/badge/Site-vnespiska.uk-A855F7?style=for-the-badge&logo=react&logoColor=white" alt="Site"/></a>
+  <a href="https://goida.win"><img src="https://img.shields.io/badge/Site-goida.win-C41E3A?style=for-the-badge&logo=telegram&logoColor=white" alt="goida.win"/></a>
   <a href="https://github.com/Chumbayoumba"><img src="https://img.shields.io/badge/GitHub-Chumbayoumba-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 </p>
 
@@ -127,6 +128,7 @@ const developer = {
 | Проект | Описание | Стек |
 |:-------|:---------|:-----|
 | 🕳️ **[glushilok](https://github.com/Chumbayoumba/glushilok)** | Бесплатный прокси + VPN и проверка блокировок для России — [glushilok.net](https://glushilok.net) | HTML, JS, SEO |
+| 🇷🇺 **[goida-win](https://github.com/Chumbayoumba/goida-win)** | Не работает Telegram или сайты? Прокси для Telegram и VPN — [goida.win](https://goida.win) | HTML, Schema.org, SEO |
 | 🚀 **[free-telegram-proxy-russia-2026](https://github.com/Chumbayoumba/free-telegram-proxy-russia-2026)** | Бесплатный рабочий MTProto прокси для Telegram 2026 | MTProto, Proxy |
 | 📱 **[tg-mini-app-template](https://github.com/Chumbayoumba/tg-mini-app-template)** | Шаблон Telegram Mini App с TON Connect | React, TypeScript, Vite |
 | 🤖 **[aiogram-starter-kit](https://github.com/Chumbayoumba/aiogram-starter-kit)** | Production-ready шаблон TG бота | Python, Aiogram 3, Docker |
