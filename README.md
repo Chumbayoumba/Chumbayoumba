@@ -25,13 +25,13 @@ production web services, AI tools that run on your own hardware, and Telegram bo
 ## Stack
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=go,ts,js,py,nodejs,nestjs,fastapi,bun,postgres,redis,sqlite,prisma&theme=dark&perline=12">
-  <img src="https://skillicons.dev/icons?i=go,ts,js,py,nodejs,nestjs,fastapi,bun,postgres,redis,sqlite,prisma&theme=light&perline=12" alt="Go, TypeScript, JavaScript, Python, Node.js, NestJS, FastAPI, Bun, PostgreSQL, Redis, SQLite, Prisma">
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=go%2Cts%2Cjs%2Cpy%2Cnodejs%2Cnestjs%2Cfastapi%2Cbun%2Cpostgres%2Credis%2Csqlite%2Cprisma&theme=dark&perline=12">
+  <img src="https://skillicons.dev/icons?i=go%2Cts%2Cjs%2Cpy%2Cnodejs%2Cnestjs%2Cfastapi%2Cbun%2Cpostgres%2Credis%2Csqlite%2Cprisma&theme=light&perline=12" alt="Go, TypeScript, JavaScript, Python, Node.js, NestJS, FastAPI, Bun, PostgreSQL, Redis, SQLite, Prisma">
 </picture>
 <br>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=react,nextjs,solidjs,astro,htmx,tailwind,vite,electron,tauri,docker,nginx,githubactions&theme=dark&perline=12">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,solidjs,astro,htmx,tailwind,vite,electron,tauri,docker,nginx,githubactions&theme=light&perline=12" alt="React, Next.js, SolidJS, Astro, HTMX, Tailwind, Vite, Electron, Tauri, Docker, nginx, GitHub Actions">
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=react%2Cnextjs%2Csolidjs%2Castro%2Chtmx%2Ctailwind%2Cvite%2Celectron%2Ctauri%2Cdocker%2Cnginx%2Cgithubactions&theme=dark&perline=12">
+  <img src="https://skillicons.dev/icons?i=react%2Cnextjs%2Csolidjs%2Castro%2Chtmx%2Ctailwind%2Cvite%2Celectron%2Ctauri%2Cdocker%2Cnginx%2Cgithubactions&theme=light&perline=12" alt="React, Next.js, SolidJS, Astro, HTMX, Tailwind, Vite, Electron, Tauri, Docker, nginx, GitHub Actions">
 </picture>
 
 ## Open source
