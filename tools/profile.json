@@ -1,0 +1,136 @@
+{
+  "login": "Chumbayoumba",
+  "name": "Egor",
+  "role": "Full-stack engineer",
+  "tagline": [
+    "Go & TypeScript backends, AI desktop apps and",
+    "Telegram platforms — from first commit to production."
+  ],
+  "pills": [
+    "Moscow, Russia",
+    "UTC+3",
+    "RU / EN"
+  ],
+  "now": {
+    "name": "Unvara",
+    "text": "Private AI that runs on your own computer: local LLMs picked for your hardware, a chat and a coding agent.",
+    "chips": [
+      "Electron",
+      "llama.cpp",
+      "TypeScript"
+    ],
+    "footer": "v0.1.0 · MIT · open source"
+  },
+  "projects": [
+    {
+      "slug": "unvara",
+      "name": "Unvara",
+      "repo": "Chumbayoumba/unvara",
+      "url": "https://github.com/Chumbayoumba/unvara",
+      "badge": "Open source",
+      "accent": [
+        "#f0b25e",
+        "#d9822b"
+      ],
+      "text": "Desktop app for local LLMs: hardware scan and model fitting, resumable downloads, a signed model catalog, CUDA / Vulkan llama.cpp engine provisioning, MCP connectors, auto-updates.",
+      "chips": [
+        "TypeScript",
+        "Electron",
+        "SolidJS",
+        "llama.cpp",
+        "GitHub Actions"
+      ]
+    },
+    {
+      "slug": "shutdown",
+      "name": "shutdown.fyi",
+      "repo": "Chumbayoumba/shutdown-fyi-open",
+      "url": "https://shutdown.fyi",
+      "badge": "Live",
+      "accent": [
+        "#fb7185",
+        "#e11d48"
+      ],
+      "text": "Live tracker of internet outages in Russia: 38 services, 8 operators, 85 regions. DNS → TCP → TLS → HTTP probes every 5 min, OONI / IODA / Radar ingest, AI summaries, open API.",
+      "chips": [
+        "Astro",
+        "Node.js",
+        "SQLite",
+        "Drizzle",
+        "Docker"
+      ]
+    },
+    {
+      "slug": "thaicarrental",
+      "name": "ThaiCarRental",
+      "badge": "Private",
+      "accent": [
+        "#34d399",
+        "#059669"
+      ],
+      "text": "Car and bike rental marketplace for Thailand with a CRM for suppliers: geo search on PostGIS, background jobs, typed API from a declarative schema.",
+      "chips": [
+        "Go",
+        "Huma",
+        "sqlc",
+        "PostGIS",
+        "Next.js 15"
+      ]
+    },
+    {
+      "slug": "biletoff",
+      "name": "Biletoff",
+      "badge": "Private",
+      "accent": [
+        "#60a5fa",
+        "#2563eb"
+      ],
+      "text": "Finds abnormally cheap flights by comparing live fares with each route's baseline, and publishes them to a server-rendered site, a Telegram channel and a bot.",
+      "chips": [
+        "Go",
+        "templ",
+        "HTMX",
+        "PostgreSQL",
+        "Redis"
+      ]
+    },
+    {
+      "slug": "flowforge",
+      "name": "FlowForge",
+      "repo": "Chumbayoumba/mini-zapier",
+      "url": "https://github.com/Chumbayoumba/mini-zapier",
+      "badge": "Open source",
+      "accent": [
+        "#a78bfa",
+        "#7c3aed"
+      ],
+      "text": "Zapier / n8n-style automation platform: drag-and-drop workflow editor, webhook, cron, email and Telegram triggers, BullMQ queues, real-time notifications.",
+      "chips": [
+        "NestJS",
+        "Next.js 15",
+        "React Flow",
+        "BullMQ",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "slug": "taskflow",
+      "name": "TaskFlow",
+      "repo": "Chumbayoumba/taskflow",
+      "url": "https://github.com/Chumbayoumba/taskflow",
+      "badge": "Open source",
+      "accent": [
+        "#22d3ee",
+        "#0891b2"
+      ],
+      "text": "Team task management SaaS: roles, Kanban with drag and drop, task dependencies, voice-to-task with speech recognition, analytics and deadline notifications.",
+      "chips": [
+        "Next.js",
+        "Prisma",
+        "NextAuth",
+        "PostgreSQL",
+        "Vitest"
+      ]
+    }
+  ]
+}

@@ -1,175 +1,62 @@
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <img src="assets/hero-light.svg" width="100%" alt="Egor — full-stack engineer. Go and TypeScript backends, AI desktop apps and Telegram platforms, from first commit to production. Now building Unvara.">
+</picture>
 
-<!-- ANIMATED HEADER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=EGOR&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Full-Stack%20Developer%20|%20Telegram%20Expert%20|%20Web3%20Builder&descSize=18&descAlignY=52"/>
+I build products end to end — database schema, API, interface, deployment. Most of my work is Go and TypeScript:
+production web services, AI tools that run on your own hardware, and Telegram bots and Mini Apps.
 
-<!-- TYPING ANIMATION -->
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=A855F7&center=true&vCenter=true&random=false&width=600&lines=Building+MVPs+in+24-48+hours+⚡;Telegram+Bots+%26+Mini+Apps+🤖;Web3+%26+TON+Integration+🔗;Недорого+и+качественно+💰)](https://git.io/typing-svg)
+- 🔭 **Now:** [Unvara](https://github.com/Chumbayoumba/unvara), an open-source desktop app that runs local LLMs picked
+  for your PC. [v0.1.0 is out](https://github.com/Chumbayoumba/unvara/releases/latest).
+- ⚙️ **Backend:** Go (Huma, chi, Fiber, templ), Node.js (NestJS), Python (FastAPI, aiogram) · PostgreSQL, Redis,
+  queues, background jobs.
+- 🖥️ **Frontend & desktop:** React, Next.js 15, SolidJS, Astro, Tailwind · Electron and Tauri.
+- 🚀 **Shipping:** Docker, nginx, GitHub Actions CI/CD, technical SEO.
 
-<!-- SOCIAL BADGES -->
-<p>
-  <a href="https://t.me/longfest"><img src="https://img.shields.io/badge/Telegram-@longfest-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/></a>
-  <a href="https://vnespiska.uk"><img src="https://img.shields.io/badge/Site-vnespiska.uk-A855F7?style=for-the-badge&logo=react&logoColor=white" alt="Site"/></a>
-  <a href="https://goida.win"><img src="https://img.shields.io/badge/Site-goida.win-C41E3A?style=for-the-badge&logo=telegram&logoColor=white" alt="goida.win"/></a>
-  <a href="https://github.com/Chumbayoumba"><img src="https://img.shields.io/badge/GitHub-Chumbayoumba-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-</p>
+## Featured work
 
-<!-- PROFILE VIEWS & FOLLOWERS -->
-<p>
-  <img src="https://komarev.com/ghpvc/?username=Chumbayoumba&color=A855F7&style=flat-square&label=Profile+Views" alt="Profile Views"/>
-  <img src="https://img.shields.io/github/followers/Chumbayoumba?label=Followers&style=flat-square&color=A855F7" alt="Followers"/>
-</p>
+<a href="https://github.com/Chumbayoumba/unvara"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-unvara-dark.svg"><img src="assets/card-unvara-light.svg" width="49%" alt="Unvara — desktop app for local LLMs"></picture></a>
+<a href="https://shutdown.fyi"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-shutdown-dark.svg"><img src="assets/card-shutdown-light.svg" width="49%" alt="shutdown.fyi — live tracker of internet outages in Russia"></picture></a>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-thaicarrental-dark.svg"><img src="assets/card-thaicarrental-light.svg" width="49%" alt="ThaiCarRental — rental marketplace and supplier CRM (private)"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-biletoff-dark.svg"><img src="assets/card-biletoff-light.svg" width="49%" alt="Biletoff — cheap flight detector (private)"></picture>
+<a href="https://github.com/Chumbayoumba/mini-zapier"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-flowforge-dark.svg"><img src="assets/card-flowforge-light.svg" width="49%" alt="FlowForge — workflow automation platform"></picture></a>
+<a href="https://github.com/Chumbayoumba/taskflow"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-taskflow-dark.svg"><img src="assets/card-taskflow-light.svg" width="49%" alt="TaskFlow — team task management SaaS"></picture></a>
 
-</div>
+## Stack
 
----
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=go,ts,js,py,nodejs,nestjs,fastapi,bun,postgres,redis,sqlite,prisma&theme=dark&perline=12">
+  <img src="https://skillicons.dev/icons?i=go,ts,js,py,nodejs,nestjs,fastapi,bun,postgres,redis,sqlite,prisma&theme=light&perline=12" alt="Go, TypeScript, JavaScript, Python, Node.js, NestJS, FastAPI, Bun, PostgreSQL, Redis, SQLite, Prisma">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=react,nextjs,solidjs,astro,htmx,tailwind,vite,electron,tauri,docker,nginx,githubactions&theme=dark&perline=12">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,solidjs,astro,htmx,tailwind,vite,electron,tauri,docker,nginx,githubactions&theme=light&perline=12" alt="React, Next.js, SolidJS, Astro, HTMX, Tailwind, Vite, Electron, Tauri, Docker, nginx, GitHub Actions">
+</picture>
 
-## 🚀 About Me
+## Open source
 
-```typescript
-const developer = {
-  name: "Egor",
-  location: "Russia 🇷🇺",
-  
-  expertise: {
-    frontend: ["React", "Next.js", "TypeScript", "Tailwind", "Framer Motion"],
-    backend: ["Node.js", "Python", "FastAPI", "NestJS"],
-    telegram: ["Aiogram", "Telegram Bot API", "Mini Apps", "TON Connect"],
-    devops: ["Docker", "PostgreSQL", "Redis", "CI/CD"]
-  },
-  
-  superpower: "Building production-ready MVPs in 24-48 hours with AI",
-  currentFocus: "Telegram Mini Apps & Web3 Integration",
-  
-  contact: "@longfest on Telegram",
-  payment: ["USDT (TRC20)", "Bank Transfer", "ИП / ООО Invoice"]
-};
-```
+| Project | What it is |
+|---|---|
+| [**unvara**](https://github.com/Chumbayoumba/unvara) ![stars](https://img.shields.io/github/stars/Chumbayoumba/unvara?style=flat&label=%E2%98%85&color=e2a04f) | Private AI on your own computer: local LLMs, a chat and a coding agent |
+| [**shutdown-fyi-open**](https://github.com/Chumbayoumba/shutdown-fyi-open) ![stars](https://img.shields.io/github/stars/Chumbayoumba/shutdown-fyi-open?style=flat&label=%E2%98%85&color=e2a04f) | Open API, widget and methodology of shutdown.fyi |
+| [**free-telegram-proxy-russia-2026**](https://github.com/Chumbayoumba/free-telegram-proxy-russia-2026) ![stars](https://img.shields.io/github/stars/Chumbayoumba/free-telegram-proxy-russia-2026?style=flat&label=%E2%98%85&color=e2a04f) | Working MTProto proxies for Telegram with fake-TLS |
+| [**simple-prompt-optimizer**](https://github.com/Chumbayoumba/simple-prompt-optimizer) ![stars](https://img.shields.io/github/stars/Chumbayoumba/simple-prompt-optimizer?style=flat&label=%E2%98%85&color=e2a04f) | MCP server that optimizes prompts through OpenRouter |
+| [**tg-mini-app-template**](https://github.com/Chumbayoumba/tg-mini-app-template) ![stars](https://img.shields.io/github/stars/Chumbayoumba/tg-mini-app-template?style=flat&label=%E2%98%85&color=e2a04f) | Telegram Mini App template: React, TypeScript, TON Connect |
+| [**aiogram-starter-kit**](https://github.com/Chumbayoumba/aiogram-starter-kit) ![stars](https://img.shields.io/github/stars/Chumbayoumba/aiogram-starter-kit?style=flat&label=%E2%98%85&color=e2a04f) | Production-ready Telegram bot: aiogram 3, PostgreSQL, Docker |
+| [**deepgram-push-to-talk-windows**](https://github.com/Chumbayoumba/deepgram-push-to-talk-windows) ![stars](https://img.shields.io/github/stars/Chumbayoumba/deepgram-push-to-talk-windows?style=flat&label=%E2%98%85&color=e2a04f) | Push-to-talk speech-to-text for Windows |
 
----
+## On GitHub
 
-## 🛠️ Tech Stack
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
+  <img src="assets/stats-light.svg" width="100%" alt="GitHub activity: contributions and commits in the last year, open-source repositories and stars">
+</picture>
 
-<div align="center">
+## Contact
 
-### 💻 Frontend
-<p>
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js"/>
-  <img src="https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind"/>
-  <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" alt="Framer"/>
-</p>
+Open to interesting products and teams. The fastest way to reach me is Telegram:
 
-### ⚙️ Backend
-<p>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/>
-  <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS"/>
-</p>
+<a href="https://t.me/longfest"><img src="https://img.shields.io/badge/Telegram-@longfest-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram @longfest"></a>
 
-### 🤖 Telegram & Web3
-<p>
-  <img src="https://img.shields.io/badge/Telegram_API-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/>
-  <img src="https://img.shields.io/badge/TON-0098EA?style=for-the-badge&logo=ton&logoColor=white" alt="TON"/>
-  <img src="https://img.shields.io/badge/Aiogram-2CA5E0?style=for-the-badge&logo=python&logoColor=white" alt="Aiogram"/>
-  <img src="https://img.shields.io/badge/Web3-F16822?style=for-the-badge&logo=web3dotjs&logoColor=white" alt="Web3"/>
-</p>
-
-### 🔧 DevOps & Tools
-<p>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis"/>
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
-</p>
-
-</div>
-
----
-
-## 💼 Services
-
-<div align="center">
-
-| Услуга | Сроки | Цена |
-|:-------|:-----:|:-----|
-| 🌐 **Лендинг** | от 24 часов | 💬 Недорого |
-| 🤖 **Telegram Бот** | 2-3 дня | 💬 Обсудим |
-| 📱 **Mini App (TWA)** | 3-5 дней | 💬 Индивидуально |
-| ⚙️ **Скрипт / Парсер** | 1-2 дня | 💬 Недорого |
-| 🎮 **Web3 / TON** | 5-7 дней | 💬 Обсудим |
-
-</div>
-
-> 💡 **Бесплатная консультация!** Напиши идею — я скажу точные сроки и цену.
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Chumbayoumba&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=A855F7&text_color=ffffff" alt="GitHub Stats"/>
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Chumbayoumba&theme=tokyonight&hide_border=true&background=0D1117&ring=A855F7&fire=A855F7&currStreakLabel=A855F7" alt="GitHub Streak"/>
-
-<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Chumbayoumba&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7" alt="Top Languages"/>
-
-</div>
-
----
-
-## 🏆 Open Source Projects
-
-<div align="center">
-
-| Проект | Описание | Стек |
-|:-------|:---------|:-----|
-| 🕳️ **[glushilok](https://github.com/Chumbayoumba/glushilok)** | Бесплатный прокси + VPN и проверка блокировок для России — [glushilok.net](https://glushilok.net) | HTML, JS, SEO |
-| 🇷🇺 **[goida-win](https://github.com/Chumbayoumba/goida-win)** | Не работает Telegram или сайты? Прокси для Telegram и VPN — [goida.win](https://goida.win) | HTML, Schema.org, SEO |
-| 🚀 **[free-telegram-proxy-russia-2026](https://github.com/Chumbayoumba/free-telegram-proxy-russia-2026)** | Бесплатный рабочий MTProto прокси для Telegram 2026 | MTProto, Proxy |
-| 📱 **[tg-mini-app-template](https://github.com/Chumbayoumba/tg-mini-app-template)** | Шаблон Telegram Mini App с TON Connect | React, TypeScript, Vite |
-| 🤖 **[aiogram-starter-kit](https://github.com/Chumbayoumba/aiogram-starter-kit)** | Production-ready шаблон TG бота | Python, Aiogram 3, Docker |
-| ⚡ **[react-landing-starter](https://github.com/Chumbayoumba/react-landing-starter)** | Современный шаблон лендинга | React, Tailwind, Framer Motion |
-| 📚 **[awesome-telegram-russia](https://github.com/Chumbayoumba/awesome-telegram-russia)** | Ресурсы для TG-разработки в РФ | Curated List |
-
-</div>
-
----
-
-## 📫 Связаться
-
-<div align="center">
-
-### 💬 Готов обсудить ваш проект!
-
-<p>
-  <a href="https://t.me/longfest">
-    <img src="https://img.shields.io/badge/💬_Написать_в_Telegram-@longfest-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/>
-  </a>
-</p>
-
----
-
-### 💰 Способы оплаты
-
-<p>
-  <img src="https://img.shields.io/badge/USDT-TRC20-26A17B?style=flat-square&logo=tether&logoColor=white" alt="USDT"/>
-  <img src="https://img.shields.io/badge/Перевод-На_карту-4CAF50?style=flat-square&logo=bank&logoColor=white" alt="Bank"/>
-  <img src="https://img.shields.io/badge/Счёт-ИП_/_ООО-FF9800?style=flat-square&logo=receipt&logoColor=white" alt="Invoice"/>
-</p>
-
-</div>
-
----
-
-<div align="center">
-
-<!-- FOOTER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
-
-**⭐ Если понравились мои проекты — ставь звезду!**
-
-</div>
+<sub>The images on this page are drawn by <a href="tools/build.py">tools/build.py</a> and refreshed daily by GitHub Actions.</sub>
