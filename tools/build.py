@@ -305,7 +305,7 @@ def stats(theme, data):
     width, height = 1200, 170
     metrics = [
         (f'{data["contributions"]:,}', "contributions in the last year"),
-        (f'{data["commits"]:,}', "commits in the last year"),
+        (f'{data["activeDays"]}', "active days in the last year"),
         (f'{data["repositories"]:,}', "open-source repositories"),
         (f'{data["stars"]:,}', "stars on GitHub"),
     ]
@@ -329,7 +329,9 @@ def stats(theme, data):
 QUERY = """
 query($login: String!) {
   user(login: $login) {
-    contributionsCollection { contributionCalendar { totalContributions } totalCommitContributions }
+    contributionsCollection {
+      contributionCalendar { totalContributions weeks { contributionDays { contributionCount } } }
+    }
     repositories(ownerAffiliations: OWNER, privacy: PUBLIC, isFork: false, first: 100) {
       totalCount
       nodes { nameWithOwner stargazerCount }
@@ -353,7 +355,13 @@ def github():
     repositories = user["repositories"]
     data = {
         "contributions": user["contributionsCollection"]["contributionCalendar"]["totalContributions"],
-        "commits": user["contributionsCollection"]["totalCommitContributions"],
+        # The Actions token sees commits to public repositories only, but the calendar includes private work too.
+        "activeDays": sum(
+            1
+            for week in user["contributionsCollection"]["contributionCalendar"]["weeks"]
+            for day in week["contributionDays"]
+            if day["contributionCount"] > 0
+        ),
         "repositories": repositories["totalCount"],
         "stars": sum(node["stargazerCount"] for node in repositories["nodes"]),
         "repoStars": {node["nameWithOwner"]: node["stargazerCount"] for node in repositories["nodes"]},

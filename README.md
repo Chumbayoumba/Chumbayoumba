@@ -50,7 +50,7 @@ production web services, AI tools that run on your own hardware, and Telegram bo
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
-  <img src="assets/stats-light.svg" width="100%" alt="GitHub activity: contributions and commits in the last year, open-source repositories and stars">
+  <img src="assets/stats-light.svg" width="100%" alt="GitHub activity: contributions and active days in the last year, open-source repositories and stars">
 </picture>
 
 ## Contact
