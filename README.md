@@ -1,17 +1,22 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <img src="assets/hero-light.svg" width="100%" alt="Egor — full-stack engineer. Go and TypeScript backends, AI desktop apps and Telegram platforms, from first commit to production. Now building Unvara.">
+  <img src="assets/hero-light.svg" width="100%" alt="Egor — founder of gpu.nz and full-stack engineer. Building gpu.nz, cloud GPUs for AI by the minute. Go and TypeScript, from first commit to production.">
 </picture>
+
+<a href="https://gpu.nz"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-gpunz-dark.svg"><img src="assets/card-gpunz-light.svg" width="100%" alt="gpu.nz — cloud GPUs for AI, by the minute, with today's market numbers"></picture></a>
 
 I build products end to end — database schema, API, interface, deployment. Most of my work is Go and TypeScript:
 production web services, AI tools that run on your own hardware, and Telegram bots and Mini Apps.
 
-- 🔭 **Now:** [Unvara](https://github.com/Chumbayoumba/unvara), an open-source desktop app that runs local LLMs picked
-  for your PC. [v0.1.0 is out](https://github.com/Chumbayoumba/unvara/releases/latest).
+- 🚀 **Now:** [gpu.nz](https://gpu.nz), my GPU cloud for AI: RTX 4090 to H100 and B200 billed by the minute, one-click
+  ComfyUI, Ollama and vLLM, a [CLI](https://github.com/gpunz/gpunz-cli) and a REST API. Open source lives in the
+  [gpunz](https://github.com/gpunz) organization.
+- 🔭 **Also:** [Unvara](https://github.com/Chumbayoumba/unvara), an open-source desktop app that runs local LLMs picked
+  for your PC.
 - ⚙️ **Backend:** Go (Huma, chi, Fiber, templ), Node.js (NestJS), Python (FastAPI, aiogram) · PostgreSQL, Redis,
   queues, background jobs.
 - 🖥️ **Frontend & desktop:** React, Next.js 15, SolidJS, Astro, Tailwind · Electron and Tauri.
-- 🚀 **Shipping:** Docker, nginx, GitHub Actions CI/CD, technical SEO.
+- 📦 **Shipping:** Docker, nginx, GitHub Actions CI/CD, technical SEO.
 
 ## Featured work
 
@@ -38,6 +43,9 @@ production web services, AI tools that run on your own hardware, and Telegram bo
 
 | Project | What it is |
 |---|---|
+| [**gpunz-cli**](https://github.com/gpunz/gpunz-cli) ![stars](https://img.shields.io/github/stars/gpunz/gpunz-cli?style=flat&label=%E2%98%85&color=b7ff36) | Rent an RTX 4090, A100 or H100 from your terminal, billed by the minute |
+| [**awesome-gpu-cloud-russia**](https://github.com/gpunz/awesome-gpu-cloud-russia) ![stars](https://img.shields.io/github/stars/gpunz/awesome-gpu-cloud-russia?style=flat&label=%E2%98%85&color=b7ff36) | Where to rent a cloud GPU for AI from Russia: an honest list with sources |
+| [**examples**](https://github.com/gpunz/examples) ![stars](https://img.shields.io/github/stars/gpunz/examples?style=flat&label=%E2%98%85&color=b7ff36) | ComfyUI, FLUX, Ollama, vLLM and Jupyter on rented GPUs: Python client and notebooks |
 | [**unvara**](https://github.com/Chumbayoumba/unvara) ![stars](https://img.shields.io/github/stars/Chumbayoumba/unvara?style=flat&label=%E2%98%85&color=e2a04f) | Private AI on your own computer: local LLMs, a chat and a coding agent |
 | [**shutdown-fyi-open**](https://github.com/Chumbayoumba/shutdown-fyi-open) ![stars](https://img.shields.io/github/stars/Chumbayoumba/shutdown-fyi-open?style=flat&label=%E2%98%85&color=e2a04f) | Open API, widget and methodology of shutdown.fyi |
 | [**free-telegram-proxy-russia-2026**](https://github.com/Chumbayoumba/free-telegram-proxy-russia-2026) ![stars](https://img.shields.io/github/stars/Chumbayoumba/free-telegram-proxy-russia-2026?style=flat&label=%E2%98%85&color=e2a04f) | Working MTProto proxies for Telegram with fake-TLS |

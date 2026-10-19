@@ -10,6 +10,7 @@ GITHUB_TOKEN (the Actions token is enough). Without it the last stats in assets/
     GITHUB_TOKEN=... python tools/build.py
 """
 
+import base64
 import json
 import math
 import os
@@ -24,6 +25,8 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 FONTS = ROOT / "tools" / "fonts"
 ASSETS = ROOT / "assets"
 PROFILE = json.loads((ROOT / "tools" / "profile.json").read_text(encoding="utf-8"))
+ART = ROOT / "tools" / "art"
+LIME, TEAL = "#b7ff36", "#00e5cc"
 
 THEMES = {
     "dark": {
@@ -34,9 +37,9 @@ THEMES = {
         "text": "#f3f5f9",
         "muted": "#a3acbb",
         "faint": "#6f7888",
-        "a": "#8b5cf6",
-        "b": "#22d3ee",
-        "name": ["#ffffff", "#c4b5fd"],
+        "a": "#a3e635",
+        "b": "#00e5cc",
+        "name": ["#ffffff", "#d9ff8a"],
         "glow": 0.34,
         "live": "#4ade80",
     },
@@ -48,9 +51,9 @@ THEMES = {
         "text": "#0e1116",
         "muted": "#4a5361",
         "faint": "#6b7482",
-        "a": "#7c3aed",
-        "b": "#0891b2",
-        "name": ["#0e1116", "#5b21b6"],
+        "a": "#4d7c0f",
+        "b": "#0f766e",
+        "name": ["#0e1116", "#3f6212"],
         "glow": 0.16,
         "live": "#16a34a",
     },
@@ -247,8 +250,8 @@ def hero(theme):
         f'<circle class="ping" cx="{card_x + 32}" cy="{card_y + 38}" r="5" fill="{theme["live"]}"/>',
         f'<circle cx="{card_x + 32}" cy="{card_y + 38}" r="5" fill="{theme["live"]}"/>',
         text(MONO[500], "NOW BUILDING", card_x + 48, card_y + 43, 12.5, theme["faint"], tracking=2.2),
-        mark(card_x + 26, card_y + 70, 42, "#e2a04f"),
-        text(SANS[600], now["name"], card_x + 80, card_y + 104, 30, theme["text"], tracking=-0.4),
+        f'<image href="{embed("gpunz-chip.png")}" x="{card_x + 24}" y="{card_y + 66}" width="46" height="46"/>',
+        wordmark(card_x + 82, card_y + 104, 32, theme),
     ]
     for index, line in enumerate(SANS[400].wrap(now["text"], 16, card_w - 56, 3)):
         body.append(text(SANS[400], line, card_x + 28, card_y + 150 + index * 24, 16, theme["muted"]))
@@ -256,6 +259,108 @@ def hero(theme):
     body.append(text(MONO[400], now["footer"], card_x + 28, card_y + 284, 13, theme["faint"]))
     title = f'{PROFILE["name"]} — {PROFILE["role"].lower()}. {" ".join(PROFILE["tagline"])}'
     return document(width, height, title, "".join(body), defs, motion=True)
+
+
+def embed(name):
+    data = (ART / name).read_bytes()
+    kind = "png" if name.endswith(".png") else "jpeg"
+    return f"data:image/{kind};base64,{base64.b64encode(data).decode()}"
+
+
+def wordmark(x, y, size, theme, muted=None):
+    # The gpu.nz logo type: «gpu» in the text colour, a lime dot, a muted «nz».
+    parts, cursor = [], x
+    for part, fill in (("gpu", theme["text"]), (".", LIME), ("nz", muted or theme["muted"])):
+        parts.append(text(SANS[700], part, cursor, y, size, fill, tracking=-size * 0.03))
+        cursor += SANS[700].width(part, size, -size * 0.03) - size * 0.03
+    return "".join(parts)
+
+
+def showcase(theme, market):
+    """The gpu.nz feature: the product scene (tools/art, drawn with ChatGPT image generation) with the live market
+    numbers of the day. The card stays dark in both themes, it is a picture of the product."""
+    width, height = 1200, 540
+    dark = THEMES["dark"]
+    defs = (
+        f'<clipPath id="frame"><rect width="{width}" height="{height}" rx="28"/></clipPath>'
+        f'<linearGradient id="shade" x1="0" x2="1"><stop offset="0" stop-color="#030810" stop-opacity="0.92"/>'
+        f'<stop offset="0.42" stop-color="#030810" stop-opacity="0.62"/>'
+        f'<stop offset="0.66" stop-color="#030810" stop-opacity="0"/></linearGradient>'
+        f'<linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{LIME}" stop-opacity="0.55"/>'
+        f'<stop offset="0.5" stop-color="{TEAL}" stop-opacity="0.18"/><stop offset="1" stop-color="{LIME}" stop-opacity="0.4"/>'
+        f"</linearGradient>"
+    )
+    stroke = theme["border"] if theme is dark else "#0b1622"
+    body = [
+        '<g clip-path="url(#frame)">',
+        f'<rect width="{width}" height="{height}" fill="#030810"/>',
+        f'<image href="{embed("gpunz-scene.jpg")}" width="{width}" height="{height}" preserveAspectRatio="xMidYMid slice"/>',
+        f'<rect width="{width}" height="{height}" fill="url(#shade)"/>',
+        "</g>",
+        f'<rect x="1" y="1" width="{width - 2}" height="{height - 2}" rx="27" fill="none" stroke="url(#edge)" stroke-width="2"/>',
+        f'<rect x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="28" fill="none" stroke="{stroke}" stroke-opacity="0.5"/>',
+        f'<circle class="ping" cx="70" cy="66" r="5" fill="{LIME}"/>',
+        f'<circle cx="70" cy="66" r="5" fill="{LIME}"/>',
+        text(MONO[500], "LIVE · FOUNDER · NOW BUILDING", 86, 71, 13, LIME, tracking=2.4),
+        f'<image href="{embed("gpunz-chip.png")}" x="58" y="102" width="74" height="74"/>',
+        wordmark(146, 162, 78, dark),
+        text(SANS[600], "Cloud GPUs for AI, by the minute.", 62, 226, 30, "#f4f7fc", tracking=-0.5),
+    ]
+    blurb = "RTX 4090 to H100 and B200, ComfyUI, Ollama and vLLM in one click, a CLI and a REST API."
+    for index, line in enumerate(SANS[400].wrap(blurb, 18, 520, 2)):
+        body.append(text(SANS[400], line, 62, 266 + index * 27, 18, "#a9b6c6"))
+    metrics = [
+        (f'{market["gpus"]:,}', "GPUs online"),
+        (f'{market["models"]}', "GPU models"),
+        (f'{market["countries"]}', "countries"),
+        (f'₽{market["fromRub"]:g}/h', "from"),
+    ]
+    x = 62
+    for value, label in metrics:
+        tile = max(SANS[700].width(value, 30, -0.6), SANS[400].width(label, 14)) + 36
+        body.append(
+            f'<rect x="{num(x)}" y="336" width="{num(tile)}" height="84" rx="16" fill="#091522" fill-opacity="0.78" '
+            f'stroke="#8cb4e6" stroke-opacity="0.16"/>'
+        )
+        lime = label == "from"
+        body.append(text(SANS[400], label, x + 18, 364, 14, "#8b9bb0"))
+        body.append(text(SANS[700], value, x + 18, 402, 30, LIME if lime else "#f4f7fc", tracking=-0.6))
+        x += tile + 12
+    cta = "Open gpu.nz →"
+    cta_w = SANS[600].width(cta, 17) + 44
+    body += [
+        f'<rect x="62" y="440" width="{num(cta_w)}" height="48" rx="24" fill="{LIME}"/>',
+        text(SANS[600], cta, 62 + cta_w / 2, 470, 17, "#07110a", anchor="middle"),
+        chips(["Next.js 16", "PostgreSQL", "Go CLI", "Telegram bot"], 62 + cta_w + 16, 449, CARD_CHIPS, size=12.5,
+              height=30, max_width=560 - cta_w),
+        text(MONO[400], f'live market data · {market["date"]}', 62, height - 16, 11.5, "#5d6d81"),
+    ]
+    title = (f'gpu.nz — cloud GPUs for AI, by the minute: {market["gpus"]:,} GPUs online, {market["models"]} models, '
+             f'{market["countries"]} countries, from ₽{market["fromRub"]:g} an hour.')
+    return document(width, height, title, "".join(body), defs, motion=True)
+
+
+CARD_CHIPS = {"chip": "#091522", "border": "#24384f", "muted": "#a9b6c6"}
+
+
+def market():
+    """Today's numbers from the public gpu.nz endpoints; the last good ones (assets/market.json) when they fail."""
+    cache = ASSETS / "market.json"
+    try:
+        summary = json.load(urllib.request.urlopen("https://gpu.nz/api/market/summary", timeout=20))
+        cheapest = json.load(urllib.request.urlopen("https://gpu.nz/api/v1/offers?order=price&limit=1", timeout=20))
+        data = {
+            "gpus": int(summary["gpus"]),
+            "models": int(summary["models"]),
+            "countries": int(summary["countries"]),
+            "fromRub": round(cheapest["data"][0]["price"]["on_demand_kop_h"] / 100, 1),
+            "date": summary["updatedAt"][:10],
+        }
+    except Exception as error:  # noqa: BLE001 — a network hiccup keeps yesterday's card
+        print("market:", error)
+        return json.loads(cache.read_text(encoding="utf-8"))
+    cache.write_text(json.dumps(data, indent=2) + "\n", encoding="utf-8")
+    return data
 
 
 BADGES = {
@@ -381,8 +486,10 @@ def write(name, content):
 def main():
     ASSETS.mkdir(exist_ok=True)
     data = github()
+    live = market()
     for mode, theme in THEMES.items():
         write(f"hero-{mode}.svg", hero(theme))
+        write(f"card-gpunz-{mode}.svg", showcase(theme, live))
         write(f"stats-{mode}.svg", stats(theme, data))
         for project in PROFILE["projects"]:
             stars = data["repoStars"].get(project["repo"]) if project.get("repo") else None
