@@ -9,7 +9,7 @@ I build products end to end — database schema, API, interface, deployment. Mos
 production web services, AI tools that run on your own hardware, and Telegram bots and Mini Apps.
 
 - 🚀 **Now:** [gpu.nz](https://gpu.nz), my GPU cloud for AI: RTX 4090 to H100 and B200 billed by the minute, one-click
-  ComfyUI, Ollama and vLLM, a [CLI](https://github.com/gpunz/gpunz-cli) and a REST API. Open source lives in the
+  ComfyUI, Ollama and vLLM, a [CLI](https://github.com/gpunz/gpunz-cli), a REST API and an [MCP server](https://github.com/gpunz/gpunz-mcp) for AI agents. Open source lives in the
   [gpunz](https://github.com/gpunz) organization.
 - 🔭 **Also:** [Unvara](https://github.com/Chumbayoumba/unvara), an open-source desktop app that runs local LLMs picked
   for your PC.
@@ -43,6 +43,7 @@ production web services, AI tools that run on your own hardware, and Telegram bo
 
 | Project | What it is |
 |---|---|
+| [**gpunz-mcp**](https://github.com/gpunz/gpunz-mcp) ![stars](https://img.shields.io/github/stars/gpunz/gpunz-mcp?style=flat&label=%E2%98%85&color=b7ff36) | MCP server at gpu.nz/mcp: Claude, Cursor and Codex find a GPU, estimate VRAM, rent and stop servers |
 | [**gpunz-cli**](https://github.com/gpunz/gpunz-cli) ![stars](https://img.shields.io/github/stars/gpunz/gpunz-cli?style=flat&label=%E2%98%85&color=b7ff36) | Rent an RTX 4090, A100 or H100 from your terminal, billed by the minute |
 | [**awesome-gpu-cloud-russia**](https://github.com/gpunz/awesome-gpu-cloud-russia) ![stars](https://img.shields.io/github/stars/gpunz/awesome-gpu-cloud-russia?style=flat&label=%E2%98%85&color=b7ff36) | Where to rent a cloud GPU for AI from Russia: an honest list with sources |
 | [**examples**](https://github.com/gpunz/examples) ![stars](https://img.shields.io/github/stars/gpunz/examples?style=flat&label=%E2%98%85&color=b7ff36) | ComfyUI, FLUX, Ollama, vLLM and Jupyter on rented GPUs: Python client and notebooks |
