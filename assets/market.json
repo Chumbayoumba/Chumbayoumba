@@ -1,7 +1,7 @@
 {
-  "gpus": 7107,
-  "models": 112,
-  "countries": 71,
+  "gpus": 7057,
+  "models": 114,
+  "countries": 67,
   "fromRub": 7.0,
-  "date": "2026-11-05"
+  "date": "2026-11-06"
 }
