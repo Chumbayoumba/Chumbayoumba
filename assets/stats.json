@@ -1,8 +1,8 @@
 {
-  "contributions": 3146,
-  "activeDays": 232,
-  "repositories": 27,
-  "stars": 139,
+  "contributions": 3163,
+  "activeDays": 233,
+  "repositories": 29,
+  "stars": 140,
   "repoStars": {
     "Chumbayoumba/AuraFlow": 0,
     "Chumbayoumba/Chumbayoumba": 1,
@@ -20,7 +20,7 @@
     "Chumbayoumba/free-mtproto-proxy": 7,
     "Chumbayoumba/free-telegram-proxy": 1,
     "Chumbayoumba/glushilok": 1,
-    "Chumbayoumba/free-telegram-proxy-russia-2026": 102,
+    "Chumbayoumba/free-telegram-proxy-russia-2026": 103,
     "Chumbayoumba/goida-win": 3,
     "Chumbayoumba/cursor-crew-bridge": 2,
     "Chumbayoumba/claudecookie": 0,
@@ -30,6 +30,8 @@
     "Chumbayoumba/obhod-belyh-spiskov": 2,
     "Chumbayoumba/arenda-gpu": 1,
     "Chumbayoumba/telegram-webproxy-guide": 2,
-    "Chumbayoumba/claude-code-api-credits": 2
+    "Chumbayoumba/claude-code-api-credits": 2,
+    "Chumbayoumba/voprosy-na-sobesedovanii": 0,
+    "Chumbayoumba/sports-prediction-model": 0
   }
 }
